@@ -351,7 +351,7 @@
   function pageHome() {
     setTitle('');
     var heroImg = META.heroImage ? '<img class="hero-photo" src="' + esc(META.heroImage) + '" alt="" fetchpriority="high">' : '';
-    var h = '<section class="hero">' + heroImg + '<div class="hero-glow" aria-hidden="true"></div><div class="hero-art" aria-hidden="true">' + gopuramSVG(8) + '</div>' +
+    var h = '<section class="hero">' + heroImg + '<div class="hero-glow" aria-hidden="true"></div><div class="hero-art" aria-hidden="true">' + gopuramSVG (8) + '</div>' +
       '<div class="hero-inner"><div><h1>' + esc(t('hero.title')) + '</h1><p class="lead">' + esc(t('hero.sub')) + '</p>' +
       '<div class="hero-cta"><a class="btn btn-gold" href="#/recipes">' + esc(t('hero.cta1')) + '</a>' +
       '<a class="btn btn-ghost-light" href="#/regions">' + esc(t('hero.cta2')) + '</a>' +
