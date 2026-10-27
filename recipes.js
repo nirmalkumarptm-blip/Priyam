@@ -68,7 +68,7 @@ PRIYAM_RECIPES.push({
   id: 'tn-kumbakonam-degree-coffee',
   region: 'tamil-nadu',
   categories: ['beverages'],         // "Beverages / Traditional Drinks" -> the Beverages category
-  festivals: [],
+  festivals: ['mahamaham'],
   diet: { veg: true, vegan: false, eggFree: true },
   allergens: ['dairy'],
   mayContain: [],
