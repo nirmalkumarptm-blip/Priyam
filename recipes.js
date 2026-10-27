@@ -89,7 +89,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 115, protein: 4, carbs: 14, fat: 4.5 },   // per tumbler, approximate
   flags: { classic: true, heritage: true, signature: true, pick: true },
   added: '2026-10-15',
-  image: null
+  image: {
+  src: 'Images/kumdeg.jpeg',
+  alt: 'Kumbakonam Degree Coffee'
+}
 });
 
 PRIYAM_RECIPES.push({
