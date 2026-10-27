@@ -305,7 +305,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 125, protein: 3.5, carbs: 24, fat: 2.5 },   // per dosa, approximate
   flags: { classic: true, heritage: true, signature: true, pick: true },
   added: '2026-10-16',
-  image: null
+  image: {
+  src: 'Images/dosai.jpeg',
+  alt: 'dosa'
+}
 });
 
 PRIYAM_RECIPES.push({
