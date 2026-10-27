@@ -61,7 +61,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 370, protein: 11, carbs: 54, fat: 13 },
   flags: { classic: true, heritage: true, signature: true, pick: true },
   added: '2026-10-14',
-  image: null
+  image: {
+  src: 'Images/venpongal.jpeg',
+  alt: 'ven pongal'
+}
 });
 
 PRIYAM_RECIPES.push({
@@ -391,7 +394,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 245, protein: 25, carbs: 6, fat: 14 },
   flags: { classic: true, heritage: true, signature: true, pick: true },
   added: '2026-10-14',
-  image: null
+  image: {
+  src: 'Images/meencurry.jpeg',
+  alt: 'meencurry'
+}
 });
 
 /* ----------------------------- KARNATAKA ---------------------------- */
@@ -417,7 +423,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 220, protein: 1.5, carbs: 22, fat: 14 },
   flags: { classic: true, heritage: true, signature: true, pick: false },
   added: '2026-10-14',
-  image: null
+  image: {
+  src: 'Images/mysore.jpeg',
+  alt: 'mysore-pak'
+}
 });
 
 /* Further regions are added in later parts:
