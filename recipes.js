@@ -122,7 +122,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 85, protein: 2.5, carbs: 18, fat: 0.5 },   // per idli, approximate
   flags: { classic: true, heritage: true, signature: true, pick: true },
   added: '2026-10-15',
-  image: null
+  image: {
+  src: 'Images/idly.jpeg',
+  alt: 'idly'
+}
 });
 
 PRIYAM_RECIPES.push({
