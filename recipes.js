@@ -160,7 +160,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 150, protein: 7, carbs: 22, fat: 4 },
   flags: { classic: true, heritage: true, signature: true, pick: false },
   added: '2026-10-15',
-  image: null
+  image: {
+  src: 'Images/sambar.jpeg',
+  alt: 'sambar'
+}
 });
 
 PRIYAM_RECIPES.push({
@@ -196,7 +199,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 60, protein: 2, carbs: 8, fat: 3 },
   flags: { classic: true, heritage: true, signature: true, pick: false },
   added: '2026-10-15',
-  image: null
+  image: {
+  src: 'Images/rasam.jpeg',
+  alt: 'rasam'
+}
 });
 
 PRIYAM_RECIPES.push({
@@ -232,7 +238,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 260, protein: 6, carbs: 42, fat: 9 },
   flags: { classic: true, heritage: false, signature: false, pick: false },
   added: '2026-10-15',
-  image: null
+  image: {
+  src: 'Images/lemon.jpeg',
+  alt: 'lemon rice'
+}
 });
 
 PRIYAM_RECIPES.push({
@@ -266,7 +275,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 380, protein: 12, carbs: 58, fat: 10 },
   flags: { classic: true, heritage: true, signature: true, pick: false },
   added: '2026-10-16',
-  image: null
+  image: {
+  src: 'Images/thayir.jpeg',
+  alt: 'curd rice'
+}
 });
 
 PRIYAM_RECIPES.push({
@@ -323,7 +335,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 545, protein: 9, carbs: 95, fat: 17 },
   flags: { classic: true, heritage: true, signature: true, pick: true },
   added: '2026-10-16',
-  image: null
+  image: {
+  src: 'Images/sakkarai.jpeg',
+  alt: 'sakkarai pongal'
+}
 });
 
 PRIYAM_RECIPES.push({
@@ -360,7 +375,10 @@ PRIYAM_RECIPES.push({
   nutrition: { kcal: 470, protein: 14, carbs: 52, fat: 24 },
   flags: { classic: true, heritage: false, signature: true, pick: false },
   added: '2026-10-16',
-  image: null
+  image: {
+  src: 'Images/kothu.jpeg',
+  alt: 'kothu parotta'
+}
 });
 
 /* ------------------------------ KERALA ------------------------------ */
