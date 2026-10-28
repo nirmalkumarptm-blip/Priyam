@@ -282,9 +282,9 @@
     out += '<g class="finial"><rect x="96" y="' + (top - 16) + '" width="8" height="16"/><ellipse cx="100" cy="' + (top - 20) + '" rx="10" ry="6"/><rect x="99" y="' + (top - 38) + '" width="2" height="14"/><circle cx="100" cy="' + (top - 40) + '" r="3"/></g>';
     return '<svg viewBox="0 0 200 ' + (base + 14) + '" aria-hidden="true" focusable="false">' + out + '</svg>';
   }
-  function brandMark() {
-    return '<span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M32 5l2.6 5h-5.2z"/><path d="M24 30l3-12h10l3 12zM20 36l2-6h20l2 6zM27 18l1.5-6h7L37 18z"/><path d="M22 41h20c3 0 5 2 5 4 0 7-6 13-15 13S17 52 17 45c0-2 2-4 5-4z"/><path d="M29 38c-3-2 0-4-1-6M35 38c-3-2 0-4-1-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>';
-  }
+function brandMark() {
+  return '<span class="brand-mark" aria-hidden="true"><img src="Images/logo.png" alt="PRIYAM logo" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"></span>';
+}
   function artSymbol(r) { return r.categories.indexOf('desserts') > -1 ? 'art-sweet' : (r.categories.indexOf('rice-dishes') > -1 || r.categories.indexOf('curries') > -1 ? 'art-bowl' : 'art-pot'); }
   function thumb(r, cls, eager) {
     var g = regionMeta(r.region);
