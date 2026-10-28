@@ -612,7 +612,7 @@
   /* ---- About & 404 ---- */
   function pageAbout() {
     setTitle(t('nav.about'));
-    return '<div class="wrap page-head"><h1>' + esc(t('nav.about')) + '</h1></div><div class="wrap about-grid"><img class="about-logo" src="images/logo.png" alt="PRIYAM — ' + esc(t('brand.soul')) + '" width="520" height="520" loading="lazy">' +
+    return '<div class="wrap page-head"><h1>' + esc(t('nav.about')) + '</h1></div><div class="wrap about-grid"><img class="about-logo" src="Images/logo.png" alt="PRIYAM — ' + esc(t('brand.soul')) + '" width="520" height="520" loading="lazy">' +
       '<div><h2>' + esc(t('brand.tagline')) + '</h2><p>' + esc(t('brand.mission')) + '</p><p>' + esc(t('about.p1')) + '</p><p>' + esc(t('about.p2')) + '</p><p>' + esc(t('about.p3')) + '</p><p class="fine">' + esc(t('about.p4')) + '</p>' +
       '<p><a class="btn btn-maroon" href="#/recipes">' + esc(t('nav.explore')) + '</a></p></div></div>';
   }
