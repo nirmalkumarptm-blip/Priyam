@@ -269,19 +269,8 @@
   function icon(n, cls) { return '<svg class="i ' + (cls || '') + '" aria-hidden="true" focusable="false"><use href="#i-' + n + '"/></svg>'; }
   /* gopuram: a stepped tower with a row of tiny windows per tier (generated, not hand-drawn) */
   function gopuramSVG(tiers) {
-    var n = tiers || 7, w0 = 176, wTop = 46, h = 21, gap = 3, base = 206, out = '';
-    out += '<rect x="8" y="' + base + '" width="184" height="12" rx="2"/>';
-    for (var i = 0; i < n; i++) {
-      var w = w0 - i * (w0 - wTop) / (n - 1), x = (200 - w) / 2, y = base - (i + 1) * (h + gap) + gap;
-      out += '<g class="tier" style="--i:' + i + '"><path d="M' + x.toFixed(1) + ' ' + (y + h) + 'L' + (x + 5).toFixed(1) + ' ' + y + 'H' + (x + w - 5).toFixed(1) + 'L' + (x + w).toFixed(1) + ' ' + (y + h) + 'Z"/>';
-      var cnt = Math.max(2, Math.round(w / 24)), step = (w - 20) / cnt;
-      for (var k = 0; k < cnt; k++) out += '<rect class="win" x="' + (x + 10 + k * step + step * .2).toFixed(1) + '" y="' + (y + 6) + '" width="' + (step * .6).toFixed(1) + '" height="' + (h - 10) + '" rx="1.5"/>';
-      out += '</g>';
-    }
-    var top = base - n * (h + gap) + gap;
-    out += '<g class="finial"><rect x="96" y="' + (top - 16) + '" width="8" height="16"/><ellipse cx="100" cy="' + (top - 20) + '" rx="10" ry="6"/><rect x="99" y="' + (top - 38) + '" width="2" height="14"/><circle cx="100" cy="' + (top - 40) + '" r="3"/></g>';
-    return '<svg viewBox="0 0 200 ' + (base + 14) + '" aria-hidden="true" focusable="false">' + out + '</svg>';
-  }
+  return '<img src="Images/my-temple.png" alt="Temple artwork" style="display:block;width:min(100%,420px);height:auto;margin:0 auto;">';
+}
 function brandMark() {
   return '<span class="brand-mark" aria-hidden="true"><img src="Images/logo.png" alt="PRIYAM logo" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"></span>';
 }
