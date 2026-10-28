@@ -162,8 +162,26 @@ a.tag:hover { border-color: var(--gold); }
 .hero h1 { color: var(--ivory); max-width: 13ch; font-size: clamp(2.5rem, 8vw, 4.6rem); margin-bottom: .35em; text-wrap: balance; }
 .hero p.lead { max-width: 36rem; font-size: clamp(1.05rem, 2.2vw, 1.25rem); color: #F6E8C8; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.2rem; }
-.hero-art { position: absolute; right: -4%; bottom: 14px; height: 88%; width: auto; max-width: 92vw; z-index: -1; color: var(--gold); pointer-events: none; opacity: .42; }
-.hero-art svg { display: block; height: 100%; width: auto; fill: currentColor; }
+.hero-art {
+  position: absolute;
+  right: 1%;
+  bottom: 14px;
+  height: 88%;
+  width: auto;
+  max-width: 46vw;
+  z-index: -1;
+  color: var(--gold);
+  pointer-events: none;
+  opacity: 1;
+}
+
+.hero-art img {
+  display: block;
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
 .hero-art .win { fill: rgba(74, 20, 26, .55); }
 .hero-art .tier { transform-box: fill-box; transform-origin: 50% 100%; animation: rise .9s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i) * 110ms + 150ms); }
 .hero-art .finial { animation: glow 3.2s ease-in-out 1.2s infinite alternate; }
