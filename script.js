@@ -269,7 +269,7 @@
   function icon(n, cls) { return '<svg class="i ' + (cls || '') + '" aria-hidden="true" focusable="false"><use href="#i-' + n + '"/></svg>'; }
   /* gopuram: a stepped tower with a row of tiny windows per tier (generated, not hand-drawn) */
   function gopuramSVG(tiers) {
-  return '<img src="Images/my-temple.png" alt="Temple artwork" style="display:block;width:min(100%,420px);height:auto;margin:0 auto;">';
+  return '<img src="Images/temple.jpeg" alt="Temple artwork" style="display:block;width:min(100%,420px);height:auto;margin:0 auto;">';
 }
 function brandMark() {
   return '<span class="brand-mark" aria-hidden="true"><img src="Images/logo.png" alt="PRIYAM logo" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"></span>';
