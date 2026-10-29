@@ -18,12 +18,12 @@ window.PRIYAM_META = {
   /* Regions. `image` is an optional path (e.g. "images/regions/kerala.jpg").
      Leave null to use the built-in illustrated banner. a/b = banner colours. */
   regions: [
-    { id: 'tamil-nadu',     a: '#641E25', b: '#C89B3C', image: null },
-    { id: 'kerala',         a: '#2F5A36', b: '#C89B3C', image: null },
-    { id: 'andhra-pradesh', a: '#A94F35', b: '#F0C25A', image: null },
-    { id: 'telangana',      a: '#6B4128', b: '#E2B867', image: null },
+    { id: 'tamil-nadu',     a: '#641E25', b: '#C89B3C', image: 'Images/tamilnadu.jpeg' },
+    { id: 'kerala',         a: '#2F5A36', b: '#C89B3C', image: 'Images/kerala.jpeg' },
+    { id: 'andhra-pradesh', a: '#A94F35', b: '#F0C25A', image: 'Images/andhra.jpeg' },
+    { id: 'telangana',      a: '#6B4128', b: '#E2B867', image: 'Images/telungana.jpeg' },
     { id: 'hyderabad',      a: '#3A2447', b: '#E3C16F', image: null },
-    { id: 'karnataka',      a: '#7B4F12', b: '#F2D58A', image: null }
+    { id: 'karnataka',      a: '#7B4F12', b: '#F2D58A', image: 'Images/karanataka.jpeg' }
   ],
 
   /* Categories. Explicit ones are listed on recipes (recipe.categories).
