@@ -53,7 +53,7 @@ window.PRIYAM_META = {
   },
 
   /* Optional hero photograph (null = built-in illustrated hero). */
-  heroImage: null,
+  heroImage:'Images/temple.jpeg',
 
   /* App version shown in the footer. */
   version: '1.0.0-part1'
