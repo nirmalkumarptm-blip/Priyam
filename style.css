@@ -188,7 +188,9 @@ a.tag:hover { border-color: var(--gold); }
   height: 100%;
   object-fit: cover;
 }
-
+.hero-art {
+   dispaly:none !important;
+}   
 .hero-art img {
   display: block;
   width: 100%;
