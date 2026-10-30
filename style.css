@@ -245,7 +245,7 @@ a.tag:hover { border-color: var(--gold); }
   text-align: center;
   background:
     linear-gradient(rgba(45, 15, 12, .72), rgba(45, 15, 12, .72)),
-    url("Image/purananuru.jpeg") center / cover no-repeat;
+    url("Images/purananuru.jpeg") center / cover no-repeat;
   color: var(--ivory);
   position: relative;
   overflow: hidden;
