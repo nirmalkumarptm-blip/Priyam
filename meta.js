@@ -22,7 +22,7 @@ window.PRIYAM_META = {
     { id: 'kerala',         a: '#2F5A36', b: '#C89B3C', image: 'Images/kerala.jpeg' },
     { id: 'andhra-pradesh', a: '#A94F35', b: '#F0C25A', image: 'Images/andhra.jpeg' },
     { id: 'telangana',      a: '#6B4128', b: '#E2B867', image: 'Images/telungana.jpeg' },
-    { id: 'hyderabad',      a: '#3A2447', b: '#E3C16F', image: null },
+    { id: 'hyderabad',      a: '#3A2447', b: '#E3C16F', image: 'Images/hydra.jpeg' },
     { id: 'karnataka',      a: '#7B4F12', b: '#F2D58A', image: 'Images/karnataka.jpeg' }
   ],
 
